@@ -1,10 +1,10 @@
 %define	fontname	Inconsolata
 %define name		fonts-ttf-%{fontname}
 %define version		1.010
-%define	release		%mkrel 1
+%define	release		%mkrel 2
 
 %define fontdir		%{_datadir}/fonts/TTF/%{fontname}
-%define fontconfdir 	%{_sysconfdir}/fonts/conf.d
+%define fontconfdir 	%{_sysconfdir}/X11/fontpath.d
 
 Summary:		Inconsolata monospace font
 Name:			%{name}
