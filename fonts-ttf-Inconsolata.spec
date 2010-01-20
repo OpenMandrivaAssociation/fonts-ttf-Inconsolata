@@ -1,7 +1,7 @@
 %define	fontname	Inconsolata
 %define name		fonts-ttf-%{fontname}
 %define version		1.010
-%define	release		%mkrel 2
+%define	release		%mkrel 3
 
 %define fontdir		%{_datadir}/fonts/TTF/%{fontname}
 %define fontconfdir 	%{_sysconfdir}/X11/fontpath.d
@@ -53,14 +53,6 @@ ln -s ../../../%{fontdir} %{buildroot}%{fontconfdir}/ttf-%{fontname}:pri=50
 
 %clean
 %__rm -fr %{buildroot}
-
-%post
-[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-
-%postun
-if [ "$1" = "0" ]; then
-   [ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache
-fi
 
 %files
 %defattr(-,root,root)
