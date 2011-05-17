@@ -18,6 +18,7 @@ Source1:		OFL.txt
 Source2:		OFL-FAQ.txt
 BuildRoot:		%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:		noarch
+BuildRequires:		ttmkfdir
 BuildRequires: fontconfig
 
 %description
