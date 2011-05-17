@@ -1,7 +1,7 @@
 %define	fontname	Inconsolata
 %define name		fonts-ttf-%{fontname}
 %define version		1.010
-%define	release		%mkrel 4
+%define	release		%mkrel 5
 
 %define fontdir		%{_datadir}/fonts/TTF/%{fontname}
 %define fontconfdir 	%{_sysconfdir}/X11/fontpath.d
