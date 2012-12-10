@@ -48,3 +48,29 @@ ln -s ../../../%{fontdir} %{buildroot}%{fontconfdir}/ttf-%{fontname}:pri=50
 %{fontdir}/*.otf
 %{fontdir}/fonts.*
 %{fontconfdir}/*
+
+
+%changelog
+* Tue May 17 2011 Funda Wang <fwang@mandriva.org> 1.010-5mdv2011.0
++ Revision: 675788
+- add br
+- use upstream generated file
+- br fontconfig for fc-query used in new rpm-setup-build
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.010-4mdv2011.0
++ Revision: 610730
+- rebuild
+
+* Wed Jan 20 2010 Paulo Ricardo Zanoni <pzanoni@mandriva.com> 1.010-3mdv2010.1
++ Revision: 494142
+- fc-cache is now called by an rpm filetrigger
+
+* Wed May 06 2009 Lev Givon <lev@mandriva.org> 1.010-2mdv2010.0
++ Revision: 372617
+- Fix font config path.
+
+* Wed May 06 2009 Lev Givon <lev@mandriva.org> 1.010-1mdv2010.0
++ Revision: 372609
+- imported package fonts-ttf-Inconsolata
+
+
