@@ -22,7 +22,8 @@ BuildRequires:		ttmkfdir
 BuildRequires: fontconfig
 
 %description
-A monospace font designed by Ralph Levien for code listings and the like in print.
+A monospace font designed by Ralph Levien for code listings and the like in
+print.
 
 %prep
 cp %{SOURCE1} %{SOURCE2} .
