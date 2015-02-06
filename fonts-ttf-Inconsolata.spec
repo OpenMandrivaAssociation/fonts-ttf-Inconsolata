@@ -6,7 +6,7 @@
 Summary:		Inconsolata monospace font
 Name:			fonts-ttf-%{fontname}
 Version:		1.010
-Release: 		6
+Release: 		7
 License:		OFL
 Group:			System/Fonts/True type
 URL:			http://www.levien.com/type/myfonts/inconsolata.html
