@@ -9,7 +9,7 @@ Version:		1.010
 Release: 		7
 License:		OFL
 Group:			System/Fonts/True type
-URL:			http://www.levien.com/type/myfonts/inconsolata.html
+URL:			https://www.levien.com/type/myfonts/inconsolata.html
 Source0:		http://www.levien.com/type/myfonts/Inconsolata.otf
 Source1:		OFL.txt
 Source2:		OFL-FAQ.txt
